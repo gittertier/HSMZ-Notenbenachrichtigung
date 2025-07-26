@@ -1,0 +1,7 @@
+{
+    "username": "<username>",
+    "password": "<password>",
+    "COOKIE_FILE": "cookies.pkl",
+    "GRADES_FILE": "grades.txt",
+    "DISCORD_WEBHOOK_URL": "<discord-webhook-url>"
+}
