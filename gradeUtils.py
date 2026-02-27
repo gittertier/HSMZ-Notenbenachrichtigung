@@ -75,7 +75,7 @@ def extract_grade_list(content: str) -> List[str]:
     return_list = []
 
     for match in re.finditer(
-        r'<span id="examsReadonly:overviewAsTreeReadonly:tree:ExamOverviewForPersonTreeReadonly:0:0:0:0:\d:unDeftxt">(.+?)</span>',
+        r'<span id="examsReadonly:overviewAsTreeReadonly:tree:ExamOverviewForPersonTreeReadonly:0:0:0:0:\d+:unDeftxt">(.+?)</span>',
         content,
     ):
         return_list.append(match.group(1))
